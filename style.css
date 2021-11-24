@@ -1,0 +1,116 @@
+/* ---------------------- */
+/* reset                  */
+/* ---------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+/* ---------------------- */
+/* custom properties      */
+/* ---------------------- */
+
+/* ---------------------- */
+/* utility classes        */
+/* ---------------------- */
+
+.flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.container {
+    padding-inline: 2em;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* ---------------------- */
+/* header                 */
+/* ---------------------- */
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    box-shadow: 0 4px 20px 0px #4a72e03d;
+    overflow: hidden;
+}
+
+.logo {
+    color: #3a72da;
+    font-size: 1.875rem;
+    font-weight: 700;
+    letter-spacing: .3em;
+}
+
+/* ---------------------- */
+/* main                   */
+/* ---------------------- */
+
+body {
+    min-height: 100vh;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.todo {
+    flex-direction: column;
+}
+
+.title {
+    color: #3a72da;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.task-lists {
+    max-height: 55vh;
+    overflow-y: auto;
+}
+
+/* ---------------------- */
+/* footer                 */
+/* ---------------------- */
+
+.input-field {
+    padding: .5em 2em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a72e03b;
+    border-bottom: 1px solid #8d8c8c96;
+    border-top: 1px solid #8d8c8c96;
+}
+
+.input {
+    width: 100%;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 1em 2em;
+    justify-content: space-between;
+    align-items: center;
+    color: #00000096;
+}
